@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="begginer application that converts binary to decimal">
+  <link rel="stylesheet" href="style.css">
+  <title>Bin2Dec</title>
+</head>
+<body>
+  <header>
+    <h1>1. Begginer project for converting binary to decimal</h1>
+  </header>
+  <main>
+    <div class="container">
+      <label for="bin">Enter a binary number:</label>
+      <input type="text" name="bin" id="bin" placeholder="only 0 and 1" required>
+      <br />
+      <input type="button" value="convert" onclick="bin2Dec()">
+      <br />
+      <label for="dec">Result in Decimal: </label>
+      <input type="text" id="dec" value="0" readonly>
+    </div>
+  </main>
+  <script src="app.js"></script>
+</body>
+  
+</html>
